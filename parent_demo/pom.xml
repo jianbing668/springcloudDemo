@@ -24,6 +24,8 @@
         <module>eureka_server</module>
         <module>euraka_client</module>
         <module>service_ribbon</module>
+        <module>service_feign</module>
+        <module>service_zuul</module>
 
     </modules>
 

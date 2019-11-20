@@ -8,12 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="euraka_client" />
         <module name="eureka_server" />
+        <module name="service_feign" />
         <module name="service_ribbon" />
+        <module name="service_zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="euraka_client1" target="1.8" />
       <module name="eureka-server1" target="1.8" />
+      <module name="service-feign" target="1.8" />
       <module name="serviceribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
